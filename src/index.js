@@ -2,13 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-
 import "./App.css";
-import Auth from "./components/Auth";
+
+import AppRouter from "./Router/AppRouter";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Auth />
+    <AppRouter />
   </React.StrictMode>,
   document.getElementById("root")
 );
